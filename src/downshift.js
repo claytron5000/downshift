@@ -585,7 +585,7 @@ class Downshift extends Component {
                   this.getState().highlightedIndex,
                   itemCount,
                 ),
-                {type: stateChangeTypes.keyDownArrowDown},
+                {type: stateChangeTypes.keyDownArrowUp},
               )
             }
           },
